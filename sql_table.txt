@@ -1,0 +1,20 @@
+CREATE DATABASE project1;
+
+USE project1;
+
+
+
+CREATE TABLE users(
+
+id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+username VARCHAR(255),
+
+email VARCHAR(255),
+
+password VARCHAR(255)
+);
+
+
+
+SELECT * FROM users;
+DELETE FROM users;
